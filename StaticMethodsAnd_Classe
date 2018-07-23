@@ -1,0 +1,8 @@
+public class First extends Second {
+
+
+final void f(){};
+
+
+
+}

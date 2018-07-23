@@ -1,0 +1,31 @@
+public class A {
+
+    public static void main(String[] args) {
+
+        String r1 ="Hello";
+        String r2 ="Hello";
+        String r3 ="Drugoe";
+
+        String r4 = new String("ello");
+        String r5 = new String("hello ole");
+        r3 = null;
+
+        r5 = r5.concat(r3);
+
+        //System.out.println(r5);
+
+        //System.out.println(r5.length());
+
+        //System.out.println(r5.contains("hell"));
+        //System.out.println(r5.equalsIgnoreCase(r4));
+
+
+        if(r5.equalsIgnoreCase(r4)){
+            System.out.println("r1 rovno r2");
+        }
+        else {
+            System.out.println("r1 ne rovno r2");
+        }
+    }
+}
+

@@ -1,0 +1,23 @@
+public class A {
+
+
+
+
+    static int a;
+    static float b;
+
+
+    public static void main(String[] args) {
+
+        A k = new A();
+        b=37.84f;
+        a=407;
+
+
+        System.out.println(a);
+        System.out.println(k.b);
+        System.out.printf("%d",a);
+
+
+    }
+}

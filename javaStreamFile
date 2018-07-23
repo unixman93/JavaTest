@@ -1,0 +1,162 @@
+import java.io.*;
+import java.nio.CharBuffer;
+
+public class A {
+
+    public static void main(String[] args) {
+
+        try {
+
+
+
+            byte[] a = new byte[30];
+
+
+            //FileOutputStream f = new FileOutputStream("/home/MacBookPro/Desktop/TestDir/new/NEWFILE2.txt");
+
+
+
+
+            FileInputStream f = new FileInputStream("/home/MacBookPro/Desktop/TestDir/new/file1.txt");
+
+
+            FileOutputStream f1 = new FileOutputStream("/home/MacBookPro/Desktop/TestDir/new/file2.txt");
+
+            PrintStream r = new PrintStream(f1);
+
+
+
+            r.print(f.read());
+
+
+
+
+
+
+
+
+
+            //int counter = f.available();
+
+            //f.skip(5);
+
+
+
+            //for(int i = 0; i<=counter; i++){
+
+
+
+
+
+                //byte[i]=((byte)f.read());
+
+
+           // }
+
+
+
+
+
+
+
+
+
+           // f.read(a);
+
+           // f1.write(a);
+
+
+
+
+
+
+
+
+            //f.read(a);
+
+
+            //r1.write(a);
+
+
+
+
+
+
+           // System.out.println((String)a);
+
+
+
+
+
+            //System.out.println(f.available());
+            //f.skip(10);
+            //System.out.println(f.available());
+
+
+            //System.out.println(f.skip(5));
+
+
+           // r1.write(a);
+
+
+            //int a = f.available();
+
+
+
+
+
+
+
+            //for(int i=0;i<=a; i++)
+
+            //{
+
+
+
+
+
+            //}
+
+
+
+
+
+            //FileReader r = new FileReader("/home/MacBookPro/Desktop/TestDir/new/newfile.txt");
+            //FileWriter r1 = new FileWriter("/home/MacBookPro/Desktop/TestDir/new/new-file");
+            //char[] a = new char[30];
+            //.read(a);
+            //r1.write(a);
+            //System.out.println(r.getEncoding());
+            //FileInputStream f = new FileInputStream("/home/MacBookPro/Desktop/TestDir/new/newfile.txt");
+            //FileOutputStream f1 = new FileOutputStream("/home/MacBookPro/Desktop/TestDir/new/new-file");
+            //byte[] b = new byte[30];
+            //f.read(b);
+            //f1.write(b);
+            //System.out.println((String)b);
+            //FileInputStream f = new FileInputStream("/home/MacBookPro/Desktop/TestDir/new/newfile.txt");
+            //FileReader f = new FileReader("/home/MacBookPro/Desktop/TestDir/new/newfile.txt");
+            //FileWriter f1 = new FileWriter("/home/MacBookPro/Desktop/TestDir/new/newfile.txt");
+            //String s = new String("Igogo!");
+            //f1.write(s);
+            //System.out.println(f.read());
+            //File f = new File("/home/MacBookPro/Desktop/TestDir/new");
+            //String s = new String();
+            //s = f.getAbsolutePath();
+            //System.out.println(s);
+           // System.out.println(f.getAbsolutePath());
+            //System.out.println(f.canWrite());
+            //System.out.println(f.getParent());
+            //f.mkdir();
+        }
+
+        catch (Exception e){
+
+            System.out.println(e);
+
+        }
+    }
+
+
+
+
+}

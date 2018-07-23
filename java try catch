@@ -1,0 +1,28 @@
+import java.util.concurrent.ExecutionException;
+
+public class A {
+
+    public static void main(String[] args) {
+
+try {
+    int a, b;
+    a = 4;
+    b = 0;
+    //a = a / b;
+    String s;
+    s.length();
+    System.out.println(a);
+}
+
+catch (Exception e) {
+    System.out.println("EXCEPTION!!!");
+    //System.err.print("Division by ZERO!");
+}
+
+finally {
+    System.out.println("FIN!");
+}
+
+    }
+}
+

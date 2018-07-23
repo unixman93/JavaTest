@@ -1,0 +1,23 @@
+public class Pasport {
+
+    int age;
+    int pk;
+
+    public static void main(String[] args) {
+
+
+        String t = "Hello";
+        String g = "World";
+
+        Pasport[] r = new Pasport[4];
+        r[0] = new Pasport();
+        r[3] = r[0];
+        r[0].age = 55;
+        System.out.println(r[3].age);
+        r[3] = null;
+        System.out.println(r[3]);
+        System.out.println(t);
+
+        System.out.println(t.concat(g));
+    }
+}

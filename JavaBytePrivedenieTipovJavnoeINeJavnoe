@@ -1,0 +1,50 @@
+public class A {
+
+
+
+        void fA(){System.out.println("Class A");}
+
+
+
+    public static void main(String[] args) {
+
+        //byte a = (byte)181;
+
+
+
+        C obj1 = new C();
+
+        obj1.fA();
+
+
+        B obj2 = new C();
+
+        ((C)    obj2).fC();
+
+
+
+        //System.out.println(a);
+
+
+
+
+        //int b = 57511;
+        //float c = b;
+        //int d;
+        //d = b;
+
+        //System.out.println(d);
+
+
+
+        //int a =57511;
+        //float b = (float) a;
+        //int c = (int)b;
+
+        //System.out.println(c);
+
+
+    }
+
+
+}

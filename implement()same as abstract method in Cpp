@@ -1,0 +1,26 @@
+public class A implements BBB {
+
+
+
+
+    public static void main(String[] args) {
+
+
+        BBB r = new BBB();
+    }
+
+}
+
+
+
+
+
+SECOND CLASS
+
+
+
+public interface BBB {
+
+    void fff();
+
+}

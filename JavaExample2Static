@@ -1,0 +1,75 @@
+EXAMPLE 1
+
+public class A {
+
+
+
+
+    static float a = 3.84f;
+
+
+    public static void main(String[] args) {
+
+        //A k = new A();   - если ресурс статический то создавать обьект не надо и доступ (видимость) есть отовсюду
+
+        System.out.println(a);
+
+
+
+    }
+}
+
+
+
+EXAMPLE 3
+
+
+public class A {
+
+
+
+
+    static float a;
+    int b;
+
+
+    public static void main(String[] args) {
+
+        A k = new A();
+        a=37.84f;
+        k.b=407;
+
+
+        System.out.println(a);
+        System.out.println(k.b);
+
+
+    }
+}
+
+
+
+
+EXAMPLE 2 
+
+
+
+public class A {
+
+
+
+
+    static float a;
+
+
+    public static void main(String[] args) {
+
+     
+        a=3.34f; -- и можно даже прсвайвайть значения на прямую
+
+        System.out.println(a);
+
+
+
+    }
+}

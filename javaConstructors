@@ -1,0 +1,30 @@
+public class GPS
+{
+    float x;
+    float y;
+
+    GPS(float m, float n) {
+        x = m;
+        y = n;
+    }
+
+    GPS(float e)
+    {
+        x=e;
+    }
+
+
+    public static void main(String[] args) {
+
+        GPS r = new GPS(4.23f, 34.4f);
+        GPS p = new GPS(65.4f);
+
+        System.out.println(r.x);
+        System.out.println(r.y);
+        System.out.println(p.x);
+    }
+}
+
+
+
+

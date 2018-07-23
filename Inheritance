@@ -1,0 +1,46 @@
+public class A extends B {
+    
+    
+    void f_a(){
+        
+        System.out.println("Class A");
+        
+        
+        
+    }
+
+
+    public static void main(String[] args) {
+
+
+        A r = new A();
+
+        r.f_b();
+        
+        r.f_a();
+    }
+}
+
+
+
+
+
+
+public class B {
+    void f_b() {
+        System.out.println("class B");
+
+    }
+
+    public static void main(String[] args) {
+
+
+        B r =new B();
+        //r.f_b();
+
+    }
+
+
+}
+
+

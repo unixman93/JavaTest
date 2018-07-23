@@ -1,0 +1,61 @@
+public class ArrayMain {
+
+
+
+
+
+
+    public static void main(String[] args) {
+
+
+        int[] r = new int[5];   // квадратные скобки дань традиции, на самом деле это конструктор, по тому что массив в java это то же класс. Так что можно укахывать =  new int(6)
+
+        r[0] = 4;
+        r[1] = 7;
+        r[2] = 3;
+        r[3] = 6;
+        r[4] = 44;
+
+        System.out.println(r[0]);
+        r[0] = 654;
+        System.out.println(r[0]);
+
+
+        Pasport[] r2 = new Pasport[4];
+
+        r2[0].age = 2;
+        r2[0].pk = 234324;
+
+
+
+
+        System.out.println(r2[0].age);
+
+        System.out.println(r2[0].pk);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+}

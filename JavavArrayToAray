@@ -1,0 +1,21 @@
+public class Pasport {
+
+    int age;
+    int pk;
+
+
+    public static void main(String[] args) {
+
+        Pasport[] r = new Pasport[4];
+        r[0] = new Pasport();
+        r[3] = r[0];
+        r[0].age = 55;
+
+        System.out.println(r[3].age);
+
+        r[3] = null;
+
+        System.out.println(r[3]);
+    }
+
+}

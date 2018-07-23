@@ -1,0 +1,50 @@
+public class A {
+
+
+    void f(){
+
+
+        System.out.println("KU-KU");
+
+
+    }
+
+
+
+
+    public static void main(String[] args) {
+
+        A r = new A();
+        r.f();
+
+
+    }
+}
+
+
+VtorojVariantSoStatic
+
+
+
+
+public class A {
+
+
+    static void f(){
+
+
+        System.out.println("KU-KU");
+
+
+    }
+
+
+
+
+    public static void main(String[] args) {
+
+        f();
+
+
+    }
+}

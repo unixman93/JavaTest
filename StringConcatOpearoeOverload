@@ -1,0 +1,34 @@
+public class A {
+
+    public static void main(String[] args) {
+
+
+        char c = 'G';
+
+        char[] ar = {'U','R','A','!'};
+
+        Object r3 = new String("dfg");
+
+        String r = "" + r3;
+
+        Object er = new Object();
+
+        System.out.println(er.hashCode());
+
+        System.out.println(r3.hashCode());
+
+
+
+
+        //System.out.print(r);
+
+
+
+
+
+
+
+
+    }
+}
+

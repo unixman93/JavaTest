@@ -1,0 +1,22 @@
+public class A {
+
+
+
+
+    static float a;
+    int b;
+
+
+    public static void main(String[] args) {
+
+        A k = new A();
+        a=37.84f;
+        k.b=407;
+
+
+        System.out.println(a);
+        System.out.println(k.b);
+
+
+    }
+}
